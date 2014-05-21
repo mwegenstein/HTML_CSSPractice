@@ -12,6 +12,12 @@ h2{
 	margin:15px 0px;
 }
 
+li {
+	font-weight: bold;
+	list-style-type: none;
+	font-size: 12px;
+	line-height: 16px;
+}
 /*Global Styles*/
 .action {
 	color:  #cc6633;
@@ -36,7 +42,6 @@ h2{
 #main {
 	width:600px;
 	padding: 20px;
-	min-height: 100px;  /*remove once content is filled in */
 	background-color: #fff;
 	float: left;
 }
@@ -49,7 +54,14 @@ h2{
 
 #sidebar {
 	width:280px;
-	min-height: 100px;  /*remove once content is filled in */
 	background-color: #fff;
 	float: right;
+	padding: 35px 0px 45px 0px;
+
+}
+
+.aside-image-container {
+	margin: 0 auto;
+	width: 220px;
+	padding-bottom: 15px;
 }
