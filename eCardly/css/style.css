@@ -8,6 +8,10 @@ p{
 	font-family: Arial, Helvetica, sans-serif
 }
 
+h2{
+	margin:15px 0px;
+}
+
 /*Global Styles*/
 .action {
 	color:  #cc6633;
@@ -18,7 +22,10 @@ p{
 .capitalize {
 	text-transform: uppercase;
 }
-
+.daily-video-footer {
+	border-top: 1px dotted #000;
+	border-bottom: 1px solid #000;
+}
 /*Main Content Section*/
 .content-container {
 	width: 940px;
@@ -27,10 +34,15 @@ p{
 }
 
 #main {
-	width:640px;
+	width:600px;
+	padding: 20px;
 	min-height: 100px;  /*remove once content is filled in */
 	background-color: #fff;
 	float: left;
+}
+
+.section-container-main {
+	padding-bottom: 40px;
 }
 
 /*Aside Content Section*/
