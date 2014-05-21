@@ -32,6 +32,20 @@ li {
 	border-top: 1px dotted #000;
 	border-bottom: 1px solid #000;
 }
+/*Header*/
+.header-wrapper {
+	background-image: url('../images/background.jpg');
+	background-repeat: repeat-x;
+	height: 180px;
+	margin-bottom: 95px;
+}
+
+.logo-container {
+	background-image: url('../images/logo.png');
+	width: 216px;
+	height: 213px;
+	margin:0 auto;
+}
 /*Main Content Section*/
 .content-container {
 	width: 940px;
