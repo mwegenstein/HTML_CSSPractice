@@ -1,0 +1,26 @@
+body {
+	background-color: #d6d6d6
+}
+
+/*Main Content Section*/
+.content-container {
+	width: 940px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#main {
+	width:640px;
+	min-height: 100px;  /*remove once content is filled in */
+	background-color: #fff;
+	float: left;
+}
+
+/*Aside Content Section*/
+
+#sidebar {
+	width:280px;
+	min-height: 100px;  /*remove once content is filled in */
+	background-color: #fff;
+	float: right;
+}
