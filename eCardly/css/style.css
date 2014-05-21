@@ -1,6 +1,7 @@
 body {
 	background-color: #d6d6d6;
 	font-family: Arial, Helvetica, sans-serif;
+	margin:0px;
 }
 
 p{
@@ -79,3 +80,27 @@ li {
 	width: 220px;
 	padding-bottom: 15px;
 }
+
+/*Footer*/
+
+.social-media-container {
+	width: 960px;
+	margin: 0 auto;
+}
+.footer-image-container {
+	margin: 0 auto;
+	width: 140px;
+}
+/***Clearfix***/
+
+.clearfix:after {
+	 visibility: hidden;
+	 display: block;
+	 font-size: 0;
+	 content: " ";
+	 clear: both;
+	 height: 0;
+ }
+
+
+
